@@ -1,0 +1,272 @@
+{
+ "settings": {
+  "p": 2,
+  "phi": 0.3333333333333333,
+  "level": 3,
+  "heavy_hex": false,
+  "instances": "results/instances.json",
+  "out": "results/resources_opt3.json"
+ },
+ "rows": [
+  {
+   "name": "I",
+   "N": 2,
+   "esd": {
+    "qubits": 8,
+    "cx": 236,
+    "depth": 322,
+    "total_gates": 669,
+    "transpile_s": 1.3
+   },
+   "pauli": {
+    "qubits": 6,
+    "cx": 60,
+    "depth": 58,
+    "total_gates": 166,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 3.933333333333333,
+   "depth_ratio": 5.551724137931035
+  },
+  {
+   "name": "II",
+   "N": 3,
+   "esd": {
+    "qubits": 7,
+    "cx": 116,
+    "depth": 216,
+    "total_gates": 416,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 5,
+    "cx": 40,
+    "depth": 49,
+    "total_gates": 123,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.9,
+   "depth_ratio": 4.408163265306122
+  },
+  {
+   "name": "III",
+   "N": 4,
+   "esd": {
+    "qubits": 10,
+    "cx": 350,
+    "depth": 447,
+    "total_gates": 1027,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 8,
+    "cx": 112,
+    "depth": 76,
+    "total_gates": 270,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 3.125,
+   "depth_ratio": 5.881578947368421
+  },
+  {
+   "name": "IV",
+   "N": 5,
+   "esd": {
+    "qubits": 11,
+    "cx": 380,
+    "depth": 488,
+    "total_gates": 1160,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 9,
+    "cx": 144,
+    "depth": 85,
+    "total_gates": 331,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.638888888888889,
+   "depth_ratio": 5.741176470588235
+  },
+  {
+   "name": "V",
+   "N": 6,
+   "esd": {
+    "qubits": 12,
+    "cx": 450,
+    "depth": 560,
+    "total_gates": 1362,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 10,
+    "cx": 180,
+    "depth": 94,
+    "total_gates": 398,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.5,
+   "depth_ratio": 5.957446808510638
+  },
+  {
+   "name": "Q13",
+   "N": 7,
+   "esd": {
+    "qubits": 13,
+    "cx": 548,
+    "depth": 691,
+    "total_gates": 1624,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 11,
+    "cx": 220,
+    "depth": 103,
+    "total_gates": 471,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.4909090909090907,
+   "depth_ratio": 6.70873786407767
+  },
+  {
+   "name": "Q14",
+   "N": 8,
+   "esd": {
+    "qubits": 14,
+    "cx": 618,
+    "depth": 773,
+    "total_gates": 1822,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 12,
+    "cx": 264,
+    "depth": 112,
+    "total_gates": 550,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.340909090909091,
+   "depth_ratio": 6.901785714285714
+  },
+  {
+   "name": "Q15",
+   "N": 8,
+   "esd": {
+    "qubits": 15,
+    "cx": 804,
+    "depth": 940,
+    "total_gates": 2284,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 13,
+    "cx": 312,
+    "depth": 121,
+    "total_gates": 635,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.576923076923077,
+   "depth_ratio": 7.768595041322314
+  },
+  {
+   "name": "Q16",
+   "N": 9,
+   "esd": {
+    "qubits": 16,
+    "cx": 790,
+    "depth": 948,
+    "total_gates": 2286,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 14,
+    "cx": 364,
+    "depth": 130,
+    "total_gates": 726,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.17032967032967,
+   "depth_ratio": 7.292307692307692
+  },
+  {
+   "name": "Q17",
+   "N": 10,
+   "esd": {
+    "qubits": 17,
+    "cx": 960,
+    "depth": 1160,
+    "total_gates": 2738,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 15,
+    "cx": 420,
+    "depth": 139,
+    "total_gates": 823,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.2857142857142856,
+   "depth_ratio": 8.345323741007194
+  },
+  {
+   "name": "Q18",
+   "N": 11,
+   "esd": {
+    "qubits": 18,
+    "cx": 996,
+    "depth": 1192,
+    "total_gates": 2877,
+    "transpile_s": 0.0
+   },
+   "pauli": {
+    "qubits": 16,
+    "cx": 480,
+    "depth": 148,
+    "total_gates": 926,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.075,
+   "depth_ratio": 8.054054054054054
+  },
+  {
+   "name": "Q19",
+   "N": 11,
+   "esd": {
+    "qubits": 19,
+    "cx": 1362,
+    "depth": 1559,
+    "total_gates": 3765,
+    "transpile_s": 0.1
+   },
+   "pauli": {
+    "qubits": 17,
+    "cx": 544,
+    "depth": 157,
+    "total_gates": 1035,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.5036764705882355,
+   "depth_ratio": 9.929936305732484
+  },
+  {
+   "name": "Q20",
+   "N": 12,
+   "esd": {
+    "qubits": 20,
+    "cx": 1514,
+    "depth": 1783,
+    "total_gates": 4195,
+    "transpile_s": 0.1
+   },
+   "pauli": {
+    "qubits": 18,
+    "cx": 612,
+    "depth": 166,
+    "total_gates": 1150,
+    "transpile_s": 0.0
+   },
+   "cx_ratio": 2.473856209150327,
+   "depth_ratio": 10.740963855421686
+  }
+ ]
+}

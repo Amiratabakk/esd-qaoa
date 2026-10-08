@@ -1,0 +1,12 @@
+# Exact versions the reported campaigns were run with, on Python 3.11.9.
+# Pinned rather than bounded: Qiskit's transpiler output and the QAOAAnsatz
+# parameter ordering have both changed across releases, and the reported CX
+# and depth counts are transpiler-dependent.
+numpy==2.4.4
+scipy==1.17.1
+qiskit==2.4.1
+qiskit-aer==0.17.2
+matplotlib==3.10.9
+
+# Hardware execution only; not needed to reproduce any simulated result.
+qiskit-ibm-runtime==0.47.0

@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# draft archives and internal working notes stay local
+*.zip
+CLAUDE.md
+MANUSCRIPT_PLAN.md
+REVISION_AUDIT.md
+SESSION_REPORT*.md
+MDPI_SYSTEMS_*.md
+
+# generator output: figures and tables are build products
+paper/
