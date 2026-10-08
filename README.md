@@ -1,8 +1,12 @@
 # ESD-QAOA
 
-Code and campaign data for **"A Multi-Objective QAOA Framework for
-Engineering Systems Design Optimization"** (Amiratabak Bahengam and Hao Chen,
-Complex Engineering Systems Lab, Stevens Institute of Technology).
+**A Multi-Objective QAOA Framework for Engineering Systems Design Optimization**  
+Amiratabak Bahengam, Hao Chen &middot; Complex Engineering Systems Lab, Stevens Institute of Technology
+
+[![DOI](https://img.shields.io/badge/DOI-pending-lightgrey)](https://doi.org/10.XXXX/XXXXXXX)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+Code and campaign data behind the paper. If you use either, please [cite it](#citation).
 
 ## The problem
 
@@ -165,6 +169,37 @@ times the transpiled depth. No computational advantage over classical
 optimization is claimed, and the hardware results describe one device under
 one protocol.
 
-## Licence
+## Citation
 
-MIT, see `LICENSE`.
+If you use this code or data, please cite the paper:
+
+> A. Bahengam and H. Chen, "A Multi-Objective QAOA Framework for Engineering
+> Systems Design Optimization," *Systems*, MDPI, 2026.
+> doi: [10.XXXX/XXXXXXX](https://doi.org/10.XXXX/XXXXXXX)
+
+```bibtex
+@article{bahengam2026esdqaoa,
+  title   = {A Multi-Objective QAOA Framework for Engineering Systems
+             Design Optimization},
+  author  = {Bahengam, Amiratabak and Chen, Hao},
+  journal = {Systems},
+  year    = {2026},
+  volume  = {},
+  number  = {},
+  pages   = {},
+  doi     = {10.XXXX/XXXXXXX},
+  url     = {https://github.com/Amiratabakk/esd-qaoa}
+}
+```
+
+The DOI, volume, issue and pages are placeholders until the paper is
+published; `CITATION.cff` carries the same fields and drives the
+**Cite this repository** button in the sidebar. Update both on acceptance.
+
+## Licence and copyright
+
+Copyright &copy; 2026 Amiratabak Bahengam and Hao Chen.
+
+Released under the MIT Licence; see [`LICENSE`](LICENSE). The licence covers
+the code and the campaign data in this repository. Please cite the paper
+rather than only the repository when the work informs a publication.

@@ -1,0 +1,40 @@
+# Enables the "Cite this repository" button on the GitHub sidebar.
+# Replace the DOI placeholders and the journal fields once the paper is
+# published, then commit; GitHub picks the change up immediately.
+cff-version: 1.2.0
+title: "ESD-QAOA: a multi-objective QAOA framework for engineering systems design optimization"
+message: "If you use this software or its data, please cite the paper below."
+type: software
+authors:
+  - family-names: Bahengam
+    given-names: Amiratabak
+    orcid: "https://orcid.org/0009-0009-5587-5000"
+    affiliation: "Complex Engineering Systems Lab, Department of Systems Engineering, Stevens Institute of Technology"
+  - family-names: Chen
+    given-names: Hao
+    orcid: "https://orcid.org/0000-0002-8000-0339"
+    affiliation: "Complex Engineering Systems Lab, Department of Systems Engineering, Stevens Institute of Technology"
+    email: hao.chen@stevens.edu
+repository-code: "https://github.com/Amiratabakk/esd-qaoa"
+license: MIT
+year: 2026
+
+preferred-citation:
+  type: article
+  title: "A Multi-Objective QAOA Framework for Engineering Systems Design Optimization"
+  authors:
+    - family-names: Bahengam
+      given-names: Amiratabak
+      orcid: "https://orcid.org/0009-0009-5587-5000"
+    - family-names: Chen
+      given-names: Hao
+      orcid: "https://orcid.org/0000-0002-8000-0339"
+  journal: "Systems"
+  publisher:
+    name: MDPI
+  year: 2026
+  # TODO: fill in on acceptance
+  volume: ""
+  issue: ""
+  start: ""
+  doi: "10.XXXX/XXXXXXX"
